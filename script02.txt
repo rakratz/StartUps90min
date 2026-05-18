@@ -1,0 +1,6 @@
+Atue como um especialista em startups e capital de risco. Estou criando uma startup imobiliária chamada "VibeHome". Ao contrário dos portais tradicionais, o foco é o "estilo de vida" e os serviços do condomínio/região (ex: se tem academia completa, portaria eletrônica, parcerias com mercados locais, lavanderia compartilhada). 
+
+Por favor, gere:
+1. Um pitch de elevador (Elevator Pitch) de 30 segundos para investidores.
+2. Três possíveis fontes de receita (Business Model) além do anúncio tradicional.
+3. Quem seria o nosso "Early Adopter" (perfil do cliente ideal).
