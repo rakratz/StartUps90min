@@ -1,90 +1,165 @@
-## 🚀 Refinando a Ideia: O "Lifestyle Match" Imobiliário
+# 🚀 Workshop — Criando uma Startup com IA em 90 Minutos
 
-Em vez de vender a ideia apenas como "um portal de serviços", vamos empacotá-la com um pitch atraente de startup.
+## 📌 Sobre o Workshop
 
-* **Nome Conceito:** *VibeHome* ou *Habitapp*
-* **A Dor do Cliente:** Portais tradicionais focam em "3 quartos, 2 banheiros". Mas o cliente moderno quer saber: *"Consigo treinar pesado na academia do prédio?", "Tem um ecossistema pet friendly por perto?", "O condomínio tem lavanderia Omo ou mercado pegue-pague?"*.
-* **A Solução Startup:** O primeiro marketplace imobiliário baseado em **estilo de vida e infraestrutura de serviços**.
-* **O Diferencial da Startup (Monetização & Escala):** O portal não cobra apenas pelo anúncio. Ele cria um **ecossistema**. Condomínios e proprietários ganham um selo de pontuação (ex: *Selo Pet Prime*, *Selo Home Office Advanced*) se fecharem parcerias com fornecedores locais (lavanderias, redes de academia, mercados autônomos).
+Este workshop demonstra como utilizar Inteligência Artificial Generativa e Vibe Coding para criar uma startup digital de forma rápida, prática e acessível.
 
----
-
-## 🛠️ Trilha de Prompts Incrementais (Para o AI Studio)
-
-No workshop, você pode abrir o AI Studio (usando o modelo Gemini mais recente, como o Gemini 1.5 Pro ou Flash) e mostrar como a IA atua como co-fundadora da startup, evoluindo a ideia passo a passo.
-
-### Passo 1: O Brainstorming e Validação da Ideia
-
-> **Objetivo do Prompt:** Mostrar como usar a IA para validar o modelo de negócios e criar o Canvas da startup em segundos.
-
-**Prompt:**
-
-```text
-Atue como um especialista em startups e capital de risco. Estou criando uma startup imobiliária chamada "VibeHome". Ao contrário dos portais tradicionais, o foco é o "estilo de vida" e os serviços do condomínio/região (ex: se tem academia completa, portaria eletrônica, parcerias com mercados locais, lavanderia compartilhada). 
-
-Por favor, gere:
-1. Um pitch de elevador (Elevator Pitch) de 30 segundos para investidores.
-2. Três possíveis fontes de receita (Business Model) além do anúncio tradicional.
-3. Quem seria o nosso "Early Adopter" (perfil do cliente ideal).
-
-```
-
-### Passo 2: Transformando Ideia em Dados (Engenharia de Prompt / System Instructions)
-
-> **Objetivo do Prompt:** Mostrar o poder do AI Studio em gerar dados estruturados (JSON) que um desenvolvedor usaria para alimentar o aplicativo.
-
-**Prompt:**
-
-```text
-Agora, preciso simular a nossa base de dados inicial. Atue como um gerador de dados JSON para a VibeHome. 
-Gere um JSON com uma lista de 3 imóveis fictícios em São Paulo. Cada imóvel deve conter:
-- Id, Endereço, Preço de locação.
-- Uma lista de "Tags de Estilo de Vida" (ex: "Gym_Hardcore", "Pet_Lover", "Coworking_Premium").
-- Um campo "Parcerias Ativas" listando quais serviços já estão integrados naquele condomínio (ex: "Mercado Autônomo Hirota", "Lavanderia Omo").
-
-Formate estritamente em JSON válido.
-
-```
-
-### Passo 3: Criando a Experiência do Usuário (Copywriting da Interface)
-
-> **Objetivo do Prompt:** Mostrar como a IA ajuda a desenhar a interface e a comunicação com o cliente (UX Writing).
-
-**Prompt:**
-
-```text
-Vamos criar a tela inicial do nosso portal. Preciso que você escreva os textos (copywriting) para a interface do usuário:
-1. O título principal (Headline) que vai impactar o usuário no site.
-2. Um subtítulo explicativo.
-3. Três opções de botões de filtro baseados em estilo de vida (ex: "Quero focar na saúde", "Trabalho de casa", etc.) com uma breve descrição para cada um.
-
-```
-
-### Passo 4: O "Modo Avançado" - O Chatbot Corretor (System Prompt)
-
-> **Objetivo do Prompt:** Mostrar a principal funcionalidade do AI Studio — definir uma **System Instruction** para criar um agente personalizado.
-> *Dica para o workshop: Cole o texto abaixo no campo "System Instructions" do AI Studio e teste no chat ao vivo com o público.*
-
-**System Instruction para colocar no AI Studio:**
-
-```text
-Você é o "VibeBot", o assistente virtual de inteligência artificial do portal imobiliário VibeHome. Seu objetivo não é apenas perguntar quantos quartos o usuário quer, mas entender o ESTILO DE VIDA dele.
-
-Diretrizes de comportamento:
-1. Seja amigável, moderno e focado em serviços.
-2. Pergunte sobre a rotina do usuário (se ele treina, se tem pets, se trabalha em home office, se cozinha ou prefere delivery).
-3. Com base nas respostas, sugira os "serviços obrigatórios" que o condomínio dele precisa ter e como a VibeHome vai encontrar isso.
-
-```
+Durante os 90 minutos, os participantes irão acompanhar a criação de um MVP completo utilizando o Google AI Studio, prompts estratégicos e conceitos modernos de startups.
 
 ---
 
-## ⏱️ Cronograma Sugerido para os 90 Minutos
+# 🧠 O que é Vibe Coding?
 
-Para você não se perder no tempo durante o workshop, aqui está uma sugestão de divisão:
+Vibe Coding é uma abordagem moderna de desenvolvimento baseada em Inteligência Artificial, onde aplicações são criadas utilizando linguagem natural, prompts e refinamentos iterativos.
 
-* **00' - 15': Introdução & O Problema** (Apresentação do conceito da startup "VibeHome" e por que o mercado imobiliário tradicional está desatualizado).
-* **15' - 30': Apresentação do AI Studio** (Tour rápido pela interface: System Instructions, Temperature, Modelos Pro vs Flash).
-* **30' - 50': Mão na Massa - Validação e Negócio** (Execução dos **Passos 1 e 2**. Mostre a IA gerando o negócio e o JSON).
-* **50' - 75': Prototipagem de Funcionalidade** (Execução dos **Passos 3 e 4**. Abra o chat com o *System Prompt* configurado e peça para alguém da plateia falar seu estilo de vida para o bot responder).
-* **75' - 90': Conclusão & Próximos Passos** (Como transformar isso em um MVP real usando ferramentas No-Code + API do Gemini e Q&A).
+Em vez de programar tudo manualmente, a IA auxilia na:
+- geração de código;
+- criação de interfaces;
+- modelagem de negócio;
+- prototipação;
+- automação;
+- validação de ideias.
+
+---
+
+# 🎯 Objetivo do Workshop
+
+Mostrar como transformar uma ideia em uma startup funcional utilizando IA como:
+- cofundadora;
+- desenvolvedora;
+- designer;
+- copywriter;
+- analista de negócios.
+
+---
+
+# 🏢 Startup Desenvolvida
+
+## VibeHome
+
+Uma startup imobiliária baseada em estilo de vida.
+
+A plataforma conecta usuários a imóveis considerando:
+- home office;
+- pet friendly;
+- academia;
+- lavanderia;
+- coworking;
+- delivery;
+- mercado autônomo;
+- qualidade de vida.
+
+---
+
+# 🛠️ Ferramentas Utilizadas
+
+- Google AI Studio
+- Gemini
+- Prompt Engineering
+- Vibe Coding
+- IA Generativa
+- Google Cloud
+- MVP Prototyping
+
+---
+
+# 📚 Conteúdo Abordado
+
+## ✅ Introdução às Startups
+- O que é uma startup
+- Escalabilidade
+- MVP
+- Modelo de negócio
+- Inovação
+
+## ✅ Introdução ao Vibe Coding
+- Desenvolvimento orientado por IA
+- Prompt Engineering
+- IA como copiloto de desenvolvimento
+
+## ✅ Google AI Studio
+- Interface
+- Modelos Gemini
+- Frameworks
+- Publicação
+- Hospedagem
+
+## ✅ Criação do MVP
+- Brainstorming
+- Validação da ideia
+- Geração de dados
+- UX/UI
+- Chatbot inteligente
+- Publicação online
+
+---
+
+# ⏱️ Estrutura do Workshop
+
+| Tempo | Atividade |
+|---|---|
+| 00–15 min | Introdução e conceito da startup |
+| 15–30 min | Google AI Studio e Vibe Coding |
+| 30–50 min | Validação da startup com IA |
+| 50–75 min | Desenvolvimento do MVP |
+| 75–90 min | Deploy, publicação e próximos passos |
+
+---
+
+# 🧠 Conceitos Importantes
+
+## MVP
+Produto mínimo viável criado para validar uma ideia rapidamente.
+
+## Startup
+Empresa criada para desenvolver um modelo de negócio inovador, escalável e repetível.
+
+## Hospedagem
+Infraestrutura responsável por manter aplicações disponíveis na internet.
+
+## IA Generativa
+Tecnologia capaz de criar textos, imagens, código e interfaces automaticamente.
+
+---
+
+# 🌐 Publicação do Projeto
+
+O workshop também demonstra como:
+- publicar aplicações;
+- utilizar Google Cloud;
+- usar recursos gratuitos;
+- hospedar MVPs;
+- disponibilizar sistemas online.
+
+---
+
+# 🔥 Resultado Final
+
+Ao final do workshop os participantes terão visto:
+- uma startup nascer em tempo real;
+- IA gerando aplicações;
+- criação de interfaces modernas;
+- construção de MVPs;
+- deploy de aplicações;
+- uso de IA para negócios.
+
+---
+
+# 💡 Mensagem Principal
+
+> Hoje, uma startup pode começar com uma boa ideia, IA e um prompt.
+
+---
+
+# 👨‍🏫 Público-Alvo
+
+- Estudantes
+- Empreendedores
+- Desenvolvedores
+- Designers
+- Profissionais de inovação
+- Pessoas interessadas em IA e startups
+
+# 📄 Licença
+
+Material desenvolvido para fins educacionais e demonstração tecnológica.
