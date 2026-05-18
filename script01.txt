@@ -29,5 +29,4 @@ Extras:
 - Barra superior com o nome “Startup Kanban AI”
 - Botão “Nova Tarefa”
 - Modo escuro/claro
-- Trocar os Cartões com o Mouse (arrastando e soltando)
 - Mensagem motivacional para produtividade
