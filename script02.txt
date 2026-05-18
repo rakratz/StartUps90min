@@ -1,6 +1,87 @@
-Atue como um especialista em startups e capital de risco. Estou criando uma startup imobiliária chamada "VibeHome". Ao contrário dos portais tradicionais, o foco é o "estilo de vida" e os serviços do condomínio/região (ex: se tem academia completa, portaria eletrônica, parcerias com mercados locais, lavanderia compartilhada). 
+Crie uma aplicação moderna chamada “VibeHome”, uma startup imobiliária baseada em estilo de vida e experiência do usuário.
 
-Por favor, gere:
-1. Um pitch de elevador (Elevator Pitch) de 30 segundos para investidores.
-2. Três possíveis fontes de receita (Business Model) além do anúncio tradicional.
-3. Quem seria o nosso "Early Adopter" (perfil do cliente ideal).
+A proposta da plataforma não é apenas anunciar imóveis, mas conectar pessoas ao imóvel ideal de acordo com sua rotina, hábitos e preferências pessoais.
+
+Objetivo da startup:
+Ajudar usuários a encontrar imóveis considerando fatores como:
+- academia no condomínio;
+- pet friendly;
+- home office;
+- coworking;
+- lavanderia compartilhada;
+- mercado autônomo;
+- delivery;
+- segurança;
+- qualidade de vida;
+- mobilidade urbana.
+
+A aplicação deve possuir:
+
+✅ Página inicial moderna e visual premium
+✅ Layout semelhante a startups SaaS modernas
+✅ Interface elegante, limpa e responsiva
+✅ Experiência visual de alto padrão
+
+Funcionalidades desejadas:
+
+1. Tela inicial com:
+- logo VibeHome
+- slogan:
+  “Seu estilo de vida, seu lugar.”
+- barra de busca de imóveis
+- banner principal impactante
+
+2. Sistema de navegação por estilo de vida:
+Criar botões/cards como:
+- Quero focar na saúde
+- Trabalho de casa
+- Tenho pets
+- Quero praticidade
+- Quero investir
+
+3. Cards de imóveis modernos contendo:
+- imagem do imóvel
+- localização
+- preço
+- tags de estilo de vida
+- ícones de serviços disponíveis
+- botão “Ver detalhes”
+
+4. Sistema de recomendação:
+A aplicação deve sugerir imóveis com base no perfil do usuário.
+
+5. Área de serviços parceiros:
+Exibir marcas fictícias de:
+- academia
+- lavanderia
+- mercado autônomo
+- delivery
+- portaria inteligente
+
+6. Chatbot inteligente:
+Criar um assistente virtual chamado “VibeBot” que converse com o usuário para entender:
+- rotina
+- hábitos
+- estilo de vida
+- necessidades do imóvel ideal
+
+7. Visual:
+- moderno
+- minimalista
+- premium
+- estilo startup unicórnio
+- animações suaves
+- cores sofisticadas
+- foco em UX/UI
+
+8. Diferenciais:
+A plataforma deve parecer uma startup real pronta para receber investidores.
+
+9. Extras:
+- dark mode
+- responsividade mobile
+- dashboard elegante
+- transições suaves
+- sensação de aplicativo premium
+
+Crie uma experiência visual impressionante e futurista.
