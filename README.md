@@ -1,4 +1,4 @@
-# 🚀 Workshop — Criando uma Startup com IA em 90 Minutos
+# 🚀 Workshop — Da ideia à StartUP em 90 min
 
 ## 📌 Sobre o Workshop
 
