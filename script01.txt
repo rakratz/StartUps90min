@@ -31,5 +31,3 @@ Extras:
 - Modo escuro/claro
 - Trocar os Cartões com o Mouse (arrastando e soltando)
 - Mensagem motivacional para produtividade
-
-O código deve ser gerado em um único arquivo executável e funcional.
